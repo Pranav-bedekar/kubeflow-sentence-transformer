@@ -26,7 +26,7 @@ jobs:
         uses: docker/build-push-action@v4
         with:
           context: .
-          file: ./Dockerfile.sentence-transformers
+          file: ./dockerfile
           push: true
           tags: |
             pranav14916/sentence-transformers:latest
